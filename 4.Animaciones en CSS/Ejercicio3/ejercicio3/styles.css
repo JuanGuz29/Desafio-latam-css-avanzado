@@ -1,0 +1,9 @@
+p {
+  width: 50px;
+  height: 50px;
+  transition: transform 3s ease-out;
+}
+
+p:hover {
+  transform: translateX(100px);
+}

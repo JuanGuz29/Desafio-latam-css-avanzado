@@ -1,0 +1,14 @@
+.flex {
+  display: flex;
+}
+.flex-item {
+  background-color: aqua;
+  border: solid 1px black;
+  margin: 1px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.item2 {
+  /* width: 50%; */
+}

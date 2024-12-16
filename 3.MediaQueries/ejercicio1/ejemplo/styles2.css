@@ -1,0 +1,19 @@
+.header {
+  color: crimson;
+}
+
+@media (min-width: 576px) {
+  .header {
+    color: purple;
+  }
+}
+@media (min-width: 768px) {
+  .header {
+    color: green;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    color: chocolate;
+  }
+}

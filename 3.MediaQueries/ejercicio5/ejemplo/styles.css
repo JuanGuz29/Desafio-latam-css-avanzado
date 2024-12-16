@@ -1,0 +1,7 @@
+@media print and (min-width: 480px) {
+  h1 {
+    color: #7ba238;
+    font-family: fantasy;
+    font-size: 150px;
+  }
+}

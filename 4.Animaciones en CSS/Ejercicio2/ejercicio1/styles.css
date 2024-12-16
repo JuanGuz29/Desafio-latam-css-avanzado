@@ -1,0 +1,24 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: darkcyan;
+  animation: move 2s ease infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  25% {
+    transform: translateX(50px) translateY(0);
+  }
+  50% {
+    transform: translateX(50px) translateY(0px);
+  }
+  75% {
+    transform: translateX(50px) translateY(50px);
+  }
+  100% {
+    transform: translateX(50px) translateY(50px);
+  }
+}

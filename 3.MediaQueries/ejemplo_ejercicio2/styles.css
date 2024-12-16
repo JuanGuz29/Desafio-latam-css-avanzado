@@ -1,0 +1,25 @@
+.btn {
+  background-color: blue;
+  color: yellowgreen;
+  width: 80px;
+  height: 40px;
+}
+
+@media (min-width: 576px) {
+  .btn {
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    background-color: rebeccapurple;
+    color: white;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    display: none;
+  }
+}

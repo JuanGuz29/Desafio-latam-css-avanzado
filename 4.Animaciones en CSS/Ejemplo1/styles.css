@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: 1s ease;
+}
+
+.box1:hover {
+  transform: rotate(45deg) scale(1);
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: 1s ease-in;
+}
+
+.box2:hover {
+  transform: rotate(30deg) scale(2);
+}

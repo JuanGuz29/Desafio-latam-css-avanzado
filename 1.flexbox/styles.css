@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+  background-image: url("shoes.jpg");
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+  font-stretch: expanded;
+  height: 94.5%;
+  width: 100%;
+  padding: 1em 8em;
+  background-color: rgba(15, 15, 15, 0.6);
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px #000;
+}
+
+.mesagge {
+}

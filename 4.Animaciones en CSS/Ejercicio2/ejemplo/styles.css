@@ -1,0 +1,10 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transform: rotate(0deg);
+  transition: transform 1s; /*La transición se aplicará a la transformación*/
+}
+.box:hover {
+  transform: rotate(45deg); /*Al pasar el ratón por encima,se rota la caja*/
+}

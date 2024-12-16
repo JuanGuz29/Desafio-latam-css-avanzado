@@ -1,0 +1,43 @@
+body,
+menu {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 9em;
+  background-color: aqua;
+  height: 100vh;
+}
+
+menu {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+menu li {
+  padding: 1em;
+  list-style: none;
+}
+
+menu a {
+  text-decoration: none;
+  color: white;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+menu a:hover {
+  color: white;
+}
+
+menu ul {
+  /*Estos son todos los ul dentro de menús,sean hijos directos o no*/
+  display: flex;
+}

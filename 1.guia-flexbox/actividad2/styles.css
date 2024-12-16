@@ -1,0 +1,13 @@
+.bigbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  text-align: center;
+}
+
+.photo {
+  width: 500px;
+  height: 707px;
+}

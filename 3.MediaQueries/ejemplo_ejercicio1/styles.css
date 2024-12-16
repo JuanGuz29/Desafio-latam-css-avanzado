@@ -1,0 +1,17 @@
+@media (min-width: 576px) {
+  body {
+    font-family: fantasy;
+  }
+}
+
+@media (min-width: 576px) {
+  body {
+    font-family: monospace;
+  }
+}
+
+@media (min-width: 940px) {
+  body {
+    font-family: "Times New Roman", Times, serif;
+  }
+}

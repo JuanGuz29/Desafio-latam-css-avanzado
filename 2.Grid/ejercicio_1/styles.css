@@ -1,0 +1,16 @@
+.bigbox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-auto-rows: 750px;
+  grid-auto-columns: 500px;
+  gap: 10px;
+}
+
+.box {
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
